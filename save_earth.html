@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/glenn-logo.png"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Javascripts   Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main Javascripts -->
+    <script defer type="text/javascript" src="../js/main.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/main.css"/>
+    <title>Save The Earth</title>
+
+    <!-- Reference 
+        environmental-bg.jpg:                   https://www.pexels.com/photo/worm-s-view-photography-of-trees-566496/
+        Bootstrap Card                          https://getbootstrap.com/docs/4.0/components/card/
+    -->
+</head>
+<body>
+    <header> <!-- Start of header -->
+        <div id="default-header" class="d-flex align-item-center justify-content-between flex-wrap position-relative h-20">
+            <div class="d-block fs-2 px-2 my-auto m-3">
+                <a href="index.html">
+                    <img src="../img/glenn-logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="d-none d-lg-block my-auto me-5 p-0">
+                <nav class="navbar">
+                    <ul class="d-inline-flex align-item-center list-unstyled">
+                        <li class="flex-fill my-0 mx-2">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="flex-fill my-0 mx-2">
+                            <a class="active-page" href="save_earth.html">Save The Earth</a>
+                        </li>
+                        <li class="flex-fill my-0 mx-2">
+                            <a href="school.html">My School</a>
+                        </li>
+                        <li class="flex-fill my-0 mx-2">
+                            <a href="progress.html">Singapore's Progress</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> <!-- End of header -->
+
+    <!-- Mobile and Tablet Nav Bar -->
+    <nav class="mb navbar sticky-top p-0">
+        <div class="d-block d-lg-none col-12">
+            <div class="dropdown">
+                <button class="navbar-toggler p-2 mt-2 mb-2 right-0" type="button" data-bs-toggle="collapse" data-bs-target="#myList" aria-controls="myList" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myList">
+                    <ul class="navbar-nav" style="height: 20vh;">
+                        <li class="nav-item active">
+                            <a class="nav-link p-1 px-2" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-1 px-2" href="save_earth.html">SAVE THE EARTH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-1 px-2" href="school.html">MY SCHOOL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-1 px-2" href="progress.html">SG PROGRESS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>   
+    <div id="save-top-container" class="d-flex position-relative justify-content-between reveal">
+        <div class="py-3 mx-auto align-self-center">
+            <h2>Save The Earth</h2>
+        </div>
+        <div class="d-none d-xl-block position-relative">
+        <img src="../img/environmental-bg.jpg" alt="trees background image">
+        </div>
+    </div>
+
+    <!-- Comp and tablet view -->
+    <section id="introduction-section" class="d-block position-relative reveal">   
+        <div class="padding d-none d-md-block">
+            <h2 class="heading-text text-start">IN<br>TRO.</h2>
+            <img src="../img/logo_sog.png" alt="Singapore Green Plan Logo">
+            <p class="content-block col-xl-5 col-md-12 col-sm-12 col-xs-12">The Singapore Green Plan 2030, is a whole nation movement to enhance Singapore's national agenda on 
+                sustainable development. It is also a sign that we are contibuting in acheiving the 17 
+                United Nation Sustainable Goals (UNSDGs). The Green Plan charts ambitious and concrete targets over the next 10 years, strengthening Singapore’s commitments under the UN’s 2030 Sustainable Development Agenda and Paris Agreement, and positioning us to achieve our long-term net zero emissions aspiration by 2050.
+            </p>
+            <a class="d-none d-xl-block btn-1 btn-info my-auto" href="https://www.greenplan.gov.sg/" target="_blank">
+                More About
+            </a>
+
+            <!-- Key Targets for tablet view -->
+            <div class="d-block d-sm-block d-xl-none small-targets-GP reveal">
+                <div class="col-10">
+                    <h5>City in Nature</h5>
+                    <p>To transform Singapore into a City in Nature, they are conserving and extending Singapore’s natural capital island-wide, and raising animal health and welfare standards in Singapore. 
+                </div>
+                <div class="col-10">
+                    <h5>Energy Reset</h5>
+                    <p>They will continue to maximise solar panel deployment, including on rooftops, reservoirs and other open spaces. Our aim is at least 2 gigawatt-peak of solar energy deployment by 2030, which can generate enough energy to meet the annual electricity needs of around 350,000 households.</p>
+                </div>
+                <div class="col-10">
+                    <h5>Green Economy</h5>
+                    <p>The global transition to a low-carbon economy brings about new opportunities in areas such as green finance, carbon services and trading, and sustainable tourism. The Government will continue to partner businesses and workers, and foster a conducive environment for them to adapt to and take advantage of these opportunities.</p>
+                </div>
+                <div class="col-10">
+                    <h5>Sustainable Living</h5>
+                    <p>They aim to be a zero waste nation powered by a circular economy, with a high rate of recycling so that our precious resources can be used many times over. They have closed our water loop by recycling our used water to make NEWater, and will make a similar strong push towards circularity in waste materials to transform trash to treasure.</p>
+                </div>
+            </div>
+
+            <!-- Key Targets for computer view -->
+            <div class="d-none d-block d-lg-block targets-GP reveal">
+                <img src="../img/" alt=""> 
+                <div class="row">
+                    <div class="col-6">
+                        <h5>City in Nature</h5>
+                        <p>To transform Singapore into a City in Nature, they are conserving and extending Singapore’s natural capital island-wide, and raising animal health and welfare standards in Singapore. 
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <h5>Energy Reset</h5>
+                        <p>They will continue to maximise solar panel deployment, including on rooftops, reservoirs and other open spaces. Our aim is at least 2 gigawatt-peak of solar energy deployment by 2030, which can generate enough energy to meet the annual electricity needs of around 350,000 households.</p>
+                    </div>
+                    <div class="col-6 mb-0">
+                        <h5>Green Economy</h5>
+                        <p class="m-0">The global transition to a low-carbon economy brings about new opportunities in areas such as green finance, carbon services and trading, and sustainable tourism. The Government will continue to partner businesses and workers, and foster a conducive environment for them to adapt to and take advantage of these opportunities.</p>
+                    </div>
+                    <div class="col-6 mb-0">
+                        <h5>Sustainable Living</h5>
+                        <p class="m-0">They aim to be a zero waste nation powered by a circular economy, with a high rate of recycling so that our precious resources can be used many times over. They have closed our water loop by recycling our used water to make NEWater, and will make a similar strong push towards circularity in waste materials to transform trash to treasure.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tablet view of UNSDG content -->
+            <div id="unsdg-content-tb" class="d-none d-md-block d-lg-none container-fluid row reveal">
+                <h5 class="col-12 fs-1 fw-bold">United Nation Sustainable Goals</h5>
+                <a class="row align-items-center" title="More About UNSDGs" target="_blank" href="https://sdgs.un.org/goals">
+                    <img class="col-12 mx-auto" src="../img/global-goals.png" style="width: 337.5px; height: 283.5px;" alt="UNSDG logo"/>
+                </a>
+                <p class="content-block col-12">The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth - all while tackling climate change and working to preserve our oceans and forests.</p>
+                
+            </div>    
+        </div> <!-- End of padding -->
+
+        <!-- UNSDGs content box -->
+        <div id="unsdg-content" class="d-none d-xl-block container-fluid reveal">
+            <div class="row justify-content-between">
+                <img class="col-6 mx-0" src="../img/global-goals.png" style="width: 405px; height: 340.2px;" alt="UNSDG logo"/>
+                <div class="col-7">
+                    <br><br>
+                    <h5 class="text-end m-0 p-0 pb-3">United Nation Sustainable Goals</h5> 
+                    <p class="col-12 px-0 text-end">The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth - all while tackling climate change and working to preserve our oceans and forests.
+                        <a class="d-none d-xl-block btn-1 btn-info text-end" href="https://sdgs.un.org/goals" target="_blank">
+                        More About
+                        </a>
+                    </p>
+                </div>   
+           </div>
+        </div>
+        
+        
+
+         <!-- Mobile View -->
+        <div class="d-block d-sm-none reveal">
+        <div class="justify-content-between">
+            <h2 class="heading-text-mob my-2 col-12">IN<br>TRO.</h2>
+            <div class="container-fluid row ms-1 mt-3">
+                <a class="p-0" title="More About SG Green Plan" target="_blank" href="https://www.greenplan.gov.sg/">
+                    <img class="mb-2" src="../img/logo_sog.png" alt="Green Plan logo" style="width: 290px; height: 60px;"/>
+                </a>
+                <h5 class="col-10 fs-1 p-0 fw-bold">Singapore Green Plan?</h5>
+                <p class="content-block col-11 p-0 mb-4 mt-1">The Singapore Green Plan 2030, is a whole nation movement to enhance Singapore's national agenda on 
+                    sustainable development. It is also a sign that we are contibuting in acheiving the 17 
+                    United Nation Sustainable Goals (UNSDGs).
+                </p>
+            </div>
+        </div>
+        <div class="small-targets-GP reveal">
+            <div class="d-flex row">
+                    <h3>KEY TARGETS</h3>
+                <div class="col-11">
+                    <h5>City in Nature</h5>
+                    <p>To transform Singapore into a City in Nature, they are conserving and extending Singapore’s natural capital island-wide, and raising animal health and welfare standards in Singapore. 
+                    </p>
+                </div>
+                <div class="col-11">
+                    <h5>Energy Reset</h5>
+                    <p>They will continue to maximise solar panel deployment, including on rooftops, reservoirs and other open spaces. Our aim is at least 2 gigawatt-peak of solar energy deployment by 2030, which can generate enough energy to meet the annual electricity needs of around 350,000 households.</p>
+                </div>
+                <div class="col-11">
+                    <h5>Green Economy</h5>
+                    <p>The global transition to a low-carbon economy brings about new opportunities in areas such as green finance, carbon services and trading, and sustainable tourism. The Government will continue to partner businesses and workers, and foster a conducive environment for them to adapt to and take advantage of these opportunities.</p>
+                </div>
+                <div class="col-11">
+                    <h5>Sustainable Living</h5>
+                    <p>They aim to be a zero waste nation powered by a circular economy, with a high rate of recycling so that our precious resources can be used many times over. They have closed our water loop by recycling our used water to make NEWater, and will make a similar strong push towards circularity in waste materials to transform trash to treasure.</p>
+                </div>
+            </div>
+        </div>
+        <div id="unsdg-content-mb" class="container-fluid row mt-0 reveal">
+            <h5 class="col-12 fs-1 fw-bold">United Nation Sustainable Goals (UNSDGs)</h5>
+            <a class="row align-items-center" title="More About UNSDGs" target="_blank" href="https://sdgs.un.org/goals">
+                <img class="col-12 mx-auto" src="../img/global-goals.png" style="width: 270px; height: 226.8px;" alt="UNSDG logo"/>
+            </a>
+            <p class="col-12">The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth - all while tackling climate change and working to preserve our oceans and forests.</p>
+        </div>
+        </div>
+    </section>
+    <!-- Mobile view till unsdg-content end -->
+
+    <!-- What to Do container -->
+    <div id="wtd-container" class="d-flex row justify-content-center reveal">
+        <div class="col-xl-8 col-lg-8 col-md-12 mb-4">
+            <div class="text-centre mb-2 p-2 pt-5 pb- 4 text-center mt-2">
+                <h2>The Singapore Green Plan 2030 and the UNSDGs is a whole nation movement.</h2>
+                <p class="mt-4">Everyone of us act as an imperative role in acheiving these goals and agenda.</p>
+                <span class="heading-text">What Can We Do ?</span>
+            </div>
+        </div>
+
+        <!-- what to do cards -->
+        <div class="d-flex row justify-content-center align-items-center pb-3 mb-3 reveal">
+            <div class="card col-xl-3 col-md-6 col-xs-12">
+                <img class="card-img-top" src="../img/shopping.jpg" alt="Shopping Image">
+                <div class="card-body">
+                    <h5 class="card-title">Shop with reusable bag and use less plastics.</h5>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-xs-12">
+                <img class="card-img-top" src="../img/plant-trees.jpg" alt="Plant trees">
+                <div class="card-body">
+                    <h5 class="card-title">Plant a tree. They help to clean the air.</h5>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-xs-12">
+                <img class="card-img-top" src="../img/save-water.jpg" alt="Save water">
+                <div class="card-body">
+                    <h5 class="card-title">Use less water, reduce wastewater.</h5>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-xs-12">
+                <img class="card-img-top" src="../img/train.jpg" alt="Public Transport">
+                <div class="card-body">
+                    <h5 class="card-title">Drive less. Use more public transport.</h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="saladbowl-container" class="container-fluid position-relative p-0 row reveal">
+            <div class="position-relative p-0">
+                <img class="w-75" src="../img/greens.png" alt="Background-Image For Linkers">
+                <!-- Mobile View -->
+                <div class="xs-view d-block d-sm-none position-absolute px-2 pb-3 mb-4">
+                    <ul class="pt-3">
+                        <li>Use reusable bag when shopping.</li>
+                        <li>Plant a tree or some plants</li>
+                        <li>Use less water to 
+                            reduce runoff and wastewater.</li>
+                        <li>Drive less and use more public transport to reduce the carbon
+                            emmisson of vehicles.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Computer view -->
+            <div class="d-none d-xl-block position-absolute row align-self-center">
+                <article class="col-xl-5 col-md-4 ps-3 pe-3 ms-5">We can do many things to contribute in achieving those sustainable goals. Sustainable life is not a choice
+                    it's a responsibilities of all. We should use reusable bag when shopping. To prevent overused and unnessacary 
+                    used of plastic bags. Besides that, we could each plant a tree or some plants. We could also use less water to 
+                    reduce runoff and wastewater. Lastly, we should drive less and use more public transport to reduce the carbon
+                    emmisson of vehicles.
+                </article>
+            </div>
+            <!-- Tablet View -->
+            <div class="d-none d-md-block d-xl-none position-absolute row align-self-center">
+                <article class="md-text col-md-4 ps-3 pe-3 ms-5">Sustainable life is not a choice
+                    it's a responsibilities of all. We should use reusable bag when shopping. To prevent overused and unnessacary 
+                    used of plastic bags. We could each plant a tree or some plants. We could also use less water to 
+                    reduce runoff and wastewater. We should drive less and use more public transport to reduce the carbon
+                    emmisson of vehicles.
+                </article>
+            </div>
+        </div>
+    </div>   <!--  What to Do Container End-->
+    
+    <!-- Personal Goals Container -->
+    <div id="personal-goals-container" class="d-block position-relative container-fluid p-0 reveal">
+        <!-- Computer and Tablet View -->
+        <div class="d-flex row justify-content-between">
+            <div class=" d-none d-md-block col-xl-4 col-md-6">
+                <aside id="goal-1">
+                    <h2>Adopt Sustainable Lifestyle</h2>
+                    <p>My goal is to adopt sustainable habits which can reduce the ecological footprint.
+                        For instance, reducing unnecessary usage of water and enery consumption electronics.
+                        Furthermore, I would support local and sustainable products, and frequently use eco-friendly transportation
+                        (Public Transport).
+                    </p>
+                </aside>
+            </div>
+            <div class="d-none d-xl-block position-absolute img-wrap">
+                    <img class="" src="../img/personal-goals.jpg" alt="3 Personal Goals">
+                    <p class="img-description">3 Personal Goals</p>
+            </div>
+            <div class=" d-none d-md-block col-xl-4 col-md-6">
+                <aside id="goal-2">
+                    <h2>Educate and Bring Awareness</h2>
+                    <p>My goal is to bring awareness to my family members and my peers. While adopting a sustainable lifestyle, I 
+                        would also try to educate others to join me and practice the same habits for the sake of sustainable 
+                        development of our country. I could also share my experience towards my friends and family members to 
+                        spread out about the importance of sustainable development and individual actions. 
+                    </p>
+                </aside>
+            </div>
+        </div>
+        <div class="d-flex row justify-content-center align-self-start">
+            <div class="d-none d-md-block col-xl-3  col-md-6">
+                <aside id="goal-3">
+                    <h2>Volunteer in Eonvironmental Activities</h2>
+                    <p>My goal is to give out some of my free time to volunteer myself in participating environmental initiatives.
+                        For example, activities like clean-up campaign, tree planting activities and others. This would get me to 
+                        stay reminded and inspire myself to keep up the sustainable lifestyle.
+                    </p>
+                </aside>
+            </div>
+        </div>
+        <!-- Mobile View -->
+        <div class="d-md-none pg-mb-view d-flex row justify-content-center reveal">
+            <div class="col-xs-10 mx-auto">
+                <h2 class="ps-1">Adopt Sustainable Lifestyle</h2>
+                    <p class="ps-1">My goal is to adopt sustainable habits which can reduce the ecological footprint.
+                        For instance, reducing unnecessary usage of water and enery consumption electronics.
+                        Furthermore, I would support local and sustainable products, and frequently use eco-friendly transportation
+                        (Public Transport).
+                    </p>
+            </div>
+            <div class="col-xs-10 mx-auto">
+                <h2 class="ps-1">Educate and Bring Awareness</h2>
+                    <p class="ps-1">My goal is to bring awareness to my family members and my peers. While adopting a sustainable lifestyle, I 
+                        would also try to educate others to join me and practice the same habits for the sake of sustainable 
+                        development of our country. I could also share my experience towards my friends and family members to 
+                        spread out about the importance of sustainable development and individual actions. 
+                    </p>
+            </div>
+            <div class="col-xs-10 mx-auto">
+                <h2 class="ps-1">Volunteer in Eonvironmental Activities</h2>
+                    <p class="ps-1">My goal is to give out some of my free time to volunteer myself in participating environmental initiatives.
+                        For example, activities like clean-up campaign, tree planting activities and others. This would get me to 
+                        stay reminded and inspire myself to keep up the sustainable lifestyle.
+                    </p>
+            </div>
+        </div>
+    </div>
+    
+            <!-- footer -->
+    <footer class="text-center bg-dark text-white position-relative">
+        <div class="container p-5 pb-0">
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab bi-facebook"></i>
+                </a>
+          
+                <!-- Discord -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://discord.com/users/762584674190753792" role="button" target="_blank">
+                    <i class="fab bi-discord"></i>
+                </a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="mailto:glenncjh04.23@ichat.sp.edu.sg" role="button" target="_blank">
+                    <i class="fab bi-google"></i>
+                </a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating btn-circle m-1" href="https://www.instagram.com/glen_n.jh/" role="button" target="_blank">
+                    <i class="fab bi-instagram"></i>
+                </a>
+            </section>
+        </div>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Author: Glenn Chang Jun Hong DAAA/FT/1A/03
+        </div>
+    </footer>
+</body>
+</html>
